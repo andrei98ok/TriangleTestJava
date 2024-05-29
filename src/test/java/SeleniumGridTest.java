@@ -48,7 +48,6 @@ public class SeleniumGridTest {
 	  }
 	  
 	  @Test
-	  @Order(1)
 	  public void ChromeСSS1() {
 	    // Test name: Заполнено только одно поле для данных (CSS)
 		  id1=Thread.currentThread().getId();
@@ -79,7 +78,6 @@ public class SeleniumGridTest {
 	    assertEquals(driver1.findElement(By.cssSelector("#content > p:nth-child(4) > font")).getText(), "Please provide 3 positive values, including at least one side.");
 	  } 
 	   @Test
-	   @Order(2)
 	  public void ChromeСSS2() {
 	    // Test name: Равнобедренный треугольник (CSS)
 		   id1=Thread.currentThread().getId();
@@ -114,7 +112,6 @@ public class SeleniumGridTest {
 	  } 
 	 
 	 @Test
-	 @Order(3)
 	  public void ChromeCSS3() {
 	    // Test name: Равносторонний треугольник (CSS)
 		 id1=Thread.currentThread().getId();
@@ -142,7 +139,6 @@ public class SeleniumGridTest {
 	  } 
 	 
 	  @Test
-	  @Order(4)
 	  public void ChromeCSS4() {
 	    // Test name: Заполнено 4 поля для данных (CSS)
 		  id1=Thread.currentThread().getId();
@@ -169,7 +165,6 @@ public class SeleniumGridTest {
 	  } 
 	  
 	  @Test
-	  @Order(7)
 	  public void ChromeXPath1() {
 	    // Test name: Заполнено 4 поля для данных (XPath)
 		  id1=Thread.currentThread().getId();
@@ -196,7 +191,6 @@ public class SeleniumGridTest {
 	  } 
 
 	  @Test
-	  @Order(5)
 	  public void ChromeCSS5() {
 	    // Test name: Прямоугольный треугольник (CSS)
 		  id1=Thread.currentThread().getId();
@@ -224,7 +218,6 @@ public class SeleniumGridTest {
 	  } 
 
 	  @Test
-	  @Order(8)
 	  public void ChromexPath2() {
 	    // Test name: Равнобедренный треугольник (XPath)
 		  id1=Thread.currentThread().getId();
@@ -262,7 +255,6 @@ public class SeleniumGridTest {
 	  } 
 
 	  @Test
-	  @Order(6)
 	  public void ChromeCSS6() {
 	    // Test name: Тупоугольный треугольник (CSS)
 		  id1=Thread.currentThread().getId();
@@ -288,7 +280,6 @@ public class SeleniumGridTest {
 	  } 
 
 	 @Test
-	 @Order(9)
 	  public void EdgeСSS1() {
 	    // Test name: Заполнено только одно поле для данных (CSS)
 		 id2=Thread.currentThread().getId();
@@ -319,7 +310,6 @@ public class SeleniumGridTest {
 	    assertEquals(driver2.findElement(By.cssSelector("#content > p:nth-child(4) > font")).getText(), "Please provide 3 positive values, including at least one side.");
 	  } 
 	   @Test
-	   @Order(10)
 	  public void EdgeСSS2() {
 	    // Test name: Равнобедренный треугольник (CSS)
 		   id2=Thread.currentThread().getId();
@@ -354,7 +344,6 @@ public class SeleniumGridTest {
 	  } 
 	 
 	 @Test
-	 @Order(11)
 	  public void EdgeCSS3() {
 	    // Test name: Равносторонний треугольник (CSS)
 		 id2=Thread.currentThread().getId();
@@ -382,7 +371,6 @@ public class SeleniumGridTest {
 	  } 
 	 
 	  @Test
-	  @Order(12)
 	  public void EdgeCSS4() {
 	    // Test name: Заполнено 4 поля для данных (CSS)
 		  id2=Thread.currentThread().getId();
@@ -409,7 +397,6 @@ public class SeleniumGridTest {
 	  } 
 	  
 	  @Test
-	  @Order(15)
 	  public void EdgeXPath1() {
 	    // Test name: Заполнено 4 поля для данных (XPath)
 		  id2=Thread.currentThread().getId();
@@ -436,7 +423,6 @@ public class SeleniumGridTest {
 	  } 
 
 	  @Test
-	  @Order(13)
 	  public void EdgeCSS5() {
 	    // Test name: Прямоугольный треугольник (CSS)
 		  id2=Thread.currentThread().getId();
@@ -464,7 +450,6 @@ public class SeleniumGridTest {
 	  } 
 
 	  @Test
-	  @Order(16)
 	  public void EdgexPath2() {
 	    // Test name: Равнобедренный треугольник (XPath)
 		  id2=Thread.currentThread().getId();
@@ -502,7 +487,6 @@ public class SeleniumGridTest {
 	  } 
 
 	  @Test
-	  @Order(14)
 	  public void EdgeCSS6() {
 	    // Test name: Тупоугольный треугольник (CSS)
 		  id2=Thread.currentThread().getId();
