@@ -39,8 +39,8 @@ public class TriangleTest {
 	  System.setProperty("webdriver.chromedriver","C:\\Users\\besti\\eclipse-workspace\\TriangleTest\\chromedriver.exe"); //Путь до ChromeDriver
    
 	  ChromeOptions opt = new ChromeOptions();
-	  opt.addArguments("--headless");
-	  
+	 opt.addArguments("--headless");
+	 
 	  driver = new ChromeDriver(opt);
  
   }
